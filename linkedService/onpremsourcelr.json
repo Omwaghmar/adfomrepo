@@ -1,0 +1,21 @@
+{
+	"name": "onpremsourcelr",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "OMI\\SQLEXPRESS",
+			"database": "source",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "Windows",
+			"userName": "OMI\\HP",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxOTU3MTE1NC1kODAxLTRmNDQtYThlZi0wMGU4YWQ3Y2E5NzgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SELFHOSTEDIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
