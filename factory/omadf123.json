@@ -1,0 +1,9 @@
+{
+	"name": "omadf123",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6a3a893c-7b19-4c17-a57e-352df0373f0e",
+		"tenantId": "89f11fb3-5bf1-478e-b021-3da4e55368b8"
+	}
+}
